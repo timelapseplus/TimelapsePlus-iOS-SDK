@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		363B8F511692F871008DCCE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363B8F501692F871008DCCE3 /* UIKit.framework */; };
+		363B8F531692F871008DCCE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363B8F521692F871008DCCE3 /* Foundation.framework */; };
+		363B8F551692F871008DCCE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363B8F541692F871008DCCE3 /* CoreGraphics.framework */; };
+		363B8F5D1692F871008DCCE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 363B8F5C1692F871008DCCE3 /* main.m */; };
+		363B8F611692F872008DCCE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 363B8F601692F872008DCCE3 /* AppDelegate.m */; };
+		363B8F671692F872008DCCE3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 363B8F661692F872008DCCE3 /* Default-568h@2x.png */; };
+		363B8F6A1692F872008DCCE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 363B8F691692F872008DCCE3 /* ViewController.m */; };
+		363B8F6D1692F872008DCCE3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 363B8F6B1692F872008DCCE3 /* ViewController.xib */; };
+		363B8F741692F87F008DCCE3 /* TimelapsePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363B8F731692F87F008DCCE3 /* TimelapsePlus.framework */; };
+		363B8F791692FCBF008DCCE3 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363B8F781692FCBF008DCCE3 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		363B8F4C1692F871008DCCE3 /* TimelapsePlusDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimelapsePlusDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		363B8F501692F871008DCCE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		363B8F521692F871008DCCE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		363B8F541692F871008DCCE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		363B8F581692F871008DCCE3 /* TimelapsePlusDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimelapsePlusDemo-Info.plist"; sourceTree = "<group>"; };
+		363B8F5C1692F871008DCCE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		363B8F5E1692F872008DCCE3 /* TimelapsePlusDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimelapsePlusDemo-Prefix.pch"; sourceTree = "<group>"; };
+		363B8F5F1692F872008DCCE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		363B8F601692F872008DCCE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		363B8F661692F872008DCCE3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		363B8F681692F872008DCCE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		363B8F691692F872008DCCE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		363B8F6C1692F872008DCCE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		363B8F731692F87F008DCCE3 /* TimelapsePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TimelapsePlus.framework; sourceTree = "<group>"; };
+		363B8F781692FCBF008DCCE3 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		363B8F491692F871008DCCE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363B8F791692FCBF008DCCE3 /* CoreBluetooth.framework in Frameworks */,
+				363B8F551692F871008DCCE3 /* CoreGraphics.framework in Frameworks */,
+				363B8F531692F871008DCCE3 /* Foundation.framework in Frameworks */,
+				363B8F741692F87F008DCCE3 /* TimelapsePlus.framework in Frameworks */,
+				363B8F511692F871008DCCE3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		363B8F411692F871008DCCE3 = {
+			isa = PBXGroup;
+			children = (
+				363B8F781692FCBF008DCCE3 /* CoreBluetooth.framework */,
+				363B8F731692F87F008DCCE3 /* TimelapsePlus.framework */,
+				363B8F561692F871008DCCE3 /* TimelapsePlusDemo */,
+				363B8F4F1692F871008DCCE3 /* Frameworks */,
+				363B8F4D1692F871008DCCE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		363B8F4D1692F871008DCCE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				363B8F4C1692F871008DCCE3 /* TimelapsePlusDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		363B8F4F1692F871008DCCE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				363B8F541692F871008DCCE3 /* CoreGraphics.framework */,
+				363B8F521692F871008DCCE3 /* Foundation.framework */,
+				363B8F501692F871008DCCE3 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		363B8F561692F871008DCCE3 /* TimelapsePlusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				363B8F5F1692F872008DCCE3 /* AppDelegate.h */,
+				363B8F601692F872008DCCE3 /* AppDelegate.m */,
+				363B8F681692F872008DCCE3 /* ViewController.h */,
+				363B8F691692F872008DCCE3 /* ViewController.m */,
+				363B8F6B1692F872008DCCE3 /* ViewController.xib */,
+				363B8F571692F871008DCCE3 /* Supporting Files */,
+			);
+			path = TimelapsePlusDemo;
+			sourceTree = "<group>";
+		};
+		363B8F571692F871008DCCE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				363B8F581692F871008DCCE3 /* TimelapsePlusDemo-Info.plist */,
+				363B8F5C1692F871008DCCE3 /* main.m */,
+				363B8F5E1692F872008DCCE3 /* TimelapsePlusDemo-Prefix.pch */,
+				363B8F661692F872008DCCE3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		363B8F4B1692F871008DCCE3 /* TimelapsePlusDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 363B8F701692F872008DCCE3 /* Build configuration list for PBXNativeTarget "TimelapsePlusDemo" */;
+			buildPhases = (
+				363B8F481692F871008DCCE3 /* Sources */,
+				363B8F491692F871008DCCE3 /* Frameworks */,
+				363B8F4A1692F871008DCCE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimelapsePlusDemo;
+			productName = TimelapsePlusDemo;
+			productReference = 363B8F4C1692F871008DCCE3 /* TimelapsePlusDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		363B8F431692F871008DCCE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Mx;
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 363B8F461692F871008DCCE3 /* Build configuration list for PBXProject "TimelapsePlusDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 363B8F411692F871008DCCE3;
+			productRefGroup = 363B8F4D1692F871008DCCE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				363B8F4B1692F871008DCCE3 /* TimelapsePlusDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		363B8F4A1692F871008DCCE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363B8F671692F872008DCCE3 /* Default-568h@2x.png in Resources */,
+				363B8F6D1692F872008DCCE3 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		363B8F481692F871008DCCE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363B8F5D1692F871008DCCE3 /* main.m in Sources */,
+				363B8F611692F872008DCCE3 /* AppDelegate.m in Sources */,
+				363B8F6A1692F872008DCCE3 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		363B8F6B1692F872008DCCE3 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				363B8F6C1692F872008DCCE3 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		363B8F6E1692F872008DCCE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		363B8F6F1692F872008DCCE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		363B8F711692F872008DCCE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimelapsePlusDemo/TimelapsePlusDemo-Prefix.pch";
+				INFOPLIST_FILE = "TimelapsePlusDemo/TimelapsePlusDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		363B8F721692F872008DCCE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimelapsePlusDemo/TimelapsePlusDemo-Prefix.pch";
+				INFOPLIST_FILE = "TimelapsePlusDemo/TimelapsePlusDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		363B8F461692F871008DCCE3 /* Build configuration list for PBXProject "TimelapsePlusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363B8F6E1692F872008DCCE3 /* Debug */,
+				363B8F6F1692F872008DCCE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		363B8F701692F872008DCCE3 /* Build configuration list for PBXNativeTarget "TimelapsePlusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363B8F711692F872008DCCE3 /* Debug */,
+				363B8F721692F872008DCCE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 363B8F431692F871008DCCE3 /* Project object */;
+}
